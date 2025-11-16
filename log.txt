@@ -1,2 +1,4 @@
-81907e9 (HEAD -> main, origin/main, origin/HEAD) Task 1.1 : Fixed checkstyle issues.
-ed35dd8 Initial commit
+764aedb (HEAD -> main, origin/main, origin/HEAD) Task 2: Refactored statement with getPlay and single-parameter getAmount
+cc2f9a2 Task 1.2 : Updated log.txt file
+81907e9 Task 1.1 : Fixed checkstyle issues.
+ed35dd8 Initial committ

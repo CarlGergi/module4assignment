@@ -89,7 +89,6 @@ public class StatementPrinter {
         final NumberFormat frmt = NumberFormat.getCurrencyInstance(Locale.US);
 
         for (Performance performance : invoice.getPerformances()) {
-            final int thisAmount = getAmount(performance);
 
             // add volume credits
             volumeCredits += Math.max(
@@ -102,9 +101,9 @@ public class StatementPrinter {
             result.append(String.format(
                     "  %s: %s (%s seats)%n",
                     getPlay(performance).getName(),
-                    frmt.format(thisAmount / Constants.PERCENT_FACTOR),
+                    frmt.format(getAmount(performance) / Constants.PERCENT_FACTOR),
                     performance.getAudience()));
-            totalAmount += thisAmount;
+            totalAmount += getAmount(performance);
         }
 
         result.append(String.format(
