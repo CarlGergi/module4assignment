@@ -1,4 +1,5 @@
-75edbc1 (HEAD -> main, origin/main, origin/HEAD) Task 2.2 : Extracted getVolumeCredits helper
+22e7102 (HEAD -> main, origin/main, origin/HEAD) Task 2.3 : Removed frmt, introduced usd helper, updated log
+75edbc1 Task 2.2 : Extracted getVolumeCredits helper
 f3420a3 Task 2.1 : Updated log after extracting and inlining getAmount refactor
 764aedb Task 2: Refactored statement with getPlay and single-parameter getAmount
 cc2f9a2 Task 1.2 : Updated log.txt file
